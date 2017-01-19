@@ -15,23 +15,13 @@ En somme, les PWA contiennent toute une série de technologies, de concepts d’
 ## Une PWA est :
 
 - **Progressive** : Elle doit marcher pour tout les utilisateurs, quelque soit son navigateur.
-
 - **Responsive** : S'adapte à n'importe quel lecteur : mobile, desktop, tablet...
-
 - **Indépendante** : Elle peut marcher avec une connection de base qualité ou même sans.
-
-- **Ressemblante** : Elle doit offrir aux utilisateurs les même intéractions qu'une applications native, et en avoir le style.
-
 - **Fraîche** : Toujours à jour !
-
 - **Fiable** : Servie via HTTPS.
-
 - **Identifiable** : Elle doit être identifié par les moteurs de recherche comme une application.
-
 - **Engageante** : Avec des fonctionnalités ressemblantes à celle des applications native. (hors-ligne, push notifications...).
-
 - **Installable** : Les utilisateurs peuvent la garder sur leurs écran d'accueil sans passer par le app store.
-
 - **Partageable** : Peut être envoyer à d'autres utilisateurs grâce à une URL sans nécéssité d'instalattion.
 
 # Comment y répondre ?
