@@ -92,7 +92,7 @@ Sachez qu'il existe une version plus poussée de cette librairie en la biblioth�
 	* facile d'utilisation
 	* comportant toutes les fonctionnalités de base nécessaires pour une belle carte interactive  
 
-#### Alors plus d'hésitation, adoptez les !     
+### Alors plus d'hésitation, adoptez les !     
 
 Marine Colonge   
 Simplonienne de la promotion 2 Toulouse    
