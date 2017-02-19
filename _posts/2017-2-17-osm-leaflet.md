@@ -1,11 +1,12 @@
 # Adoptez OpenStreetMap et sa Librairie Leaflet
 *******************************************************
    
-![OSM](http://openstreetmap.fr/f/OSM-FR-logo-web-avec-texte.png)
-![Leaflet](http://t3.gstatic.com/images?q=tbn:ANd9GcS5d8NPc4K2rv-wa6cB8xTmMk_yRz0uj9APe6Us5iMjJWQrnj_AggiF0dQ)
+![OSM](http://openstreetmap.fr/f/OSM-FR-logo-web-avec-texte.png)   
+![Leaflet](http://t3.gstatic.com/images?q=tbn:ANd9GcS5d8NPc4K2rv-wa6cB8xTmMk_yRz0uj9APe6Us5iMjJWQrnj_AggiF0dQ)   
 Besoin d'une carte ? Adoptez Open Street Map et sa Librairie Leaflet : une solution pratique et une prise en main rapide !       
 
->Mais qu'est ce donc ?       
+>Mais qu'est ce donc ?  
+==
 
 ## OpenStreetMap (OSM)
 
@@ -31,6 +32,7 @@ Pour en savoir davatange sur cette initiative : **[HOT](https://hotosm.org/)**
 
 
 >Maintenant que vous êtes convaincu par le choix d'Open Street Map, il vous faut une librairie !      
+==
  
 ## Leaflet
 
@@ -55,7 +57,6 @@ function initmap() {
 }
 initmap();
 ```
-
 * Vos cartes sont facilement personnalisables, quelques exemples:  
 
 ![exemple circle et popup](https://upload.wikimedia.org/wikipedia/en/a/a8/Leaflet_example.png)
@@ -83,8 +84,8 @@ Sachez qu'il existe une version plus poussée de cette librairie en la biblioth�
 
 #### Alors plus d'hésitation, adoptez les !     
 
->Marine Colonge
-Simplonienne de la promotion 2 Toulouse.
+>Marine Colonge   
+>Simplonienne de la promotion 2 Toulouse    
 ![Simplon Occitanie](https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/a/0/d/0/global_450101168.jpeg)
 
 #### Sources 
