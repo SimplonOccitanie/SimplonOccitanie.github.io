@@ -1,11 +1,15 @@
 # Adoptez OpenStreetMap et sa Librairie Leaflet
 *******************************************************
    
-![OSM](http://openstreetmap.fr/f/OSM-FR-logo-web-avec-texte.png)   
-![Leaflet](http://t3.gstatic.com/images?q=tbn:ANd9GcS5d8NPc4K2rv-wa6cB8xTmMk_yRz0uj9APe6Us5iMjJWQrnj_AggiF0dQ)   
-Besoin d'une carte ? Adoptez Open Street Map et sa Librairie Leaflet : une solution pratique et une prise en main rapide !       
+![OSM](http://openstreetmap.fr/f/OSM-FR-logo-web-avec-texte.png)      
 
->Mais qu'est ce donc ?  
+![Leaflet](http://t3.gstatic.com/images?q=tbn:ANd9GcS5d8NPc4K2rv-wa6cB8xTmMk_yRz0uj9APe6Us5iMjJWQrnj_AggiF0dQ)        
+
+>Besoin d'une carte ?     
+>Adoptez Open Street Map et sa Librairie Leaflet : une solution pratique et une prise en main rapide !      
+
+
+Mais qu'est ce donc ?     
 ==
 
 ## OpenStreetMap (OSM)
@@ -18,7 +22,7 @@ Il a pour but de créer une carte libre du monde. A cette fin, les données expl
 Sachez que ces données géographiques sont mises à disposition des utilisateurs pour des utilisations diverses tels que des calculs d'itinéraires ou différents rendus de carte grâce à des plugins mais également que vous pouvez contribuer à cette entreprise de récolte !  
 En effet, chaque personne peut participer à la création et à la numérisation des cartes que ce soit en marchant, à 2 roues, en voiture ou tout autre moyen de transport.      
 
->Comment faire cela ?  
+Comment faire cela ?  
 - Vous recueillez des données enregistrées par exemple avec un GPS sur un itinéraire, 
 - Vous prenez des notes (photographiques, écrites ou orales) sur les mentions utiles comme les noms, le type de lieu (parcs, forêt, zone résidentielle, commerces ...), présence de boites aux lettres, tout ce que vous jugerez utile,
 - Puis vous reportez ces informations sur le serveur de données d'OpenStreetMap.     
@@ -31,7 +35,7 @@ Ce projet à permit la naissance d'Humanitarian OpenStreetMap Team (HOT), une é
 Pour en savoir davatange sur cette initiative : **[HOT](https://hotosm.org/)**     
 
 
->Maintenant que vous êtes convaincu par le choix d'Open Street Map, il vous faut une librairie !      
+Maintenant que vous êtes convaincu par le choix d'Open Street Map, il vous faut une librairie !      
 ==
  
 ## Leaflet
@@ -41,7 +45,7 @@ Leaflet a été développée par Vladimir Agafonkin de CloudMade ainsi que de no
 
 Elle est très légère (38Ko) ce qui la rend idéale pour les supports tels que smartphones et tablettes. Elle possède tout les éléments de base indispensables dont ont besoin la plupart des développeurs. Elle est également très simple d'utilisation et la prise en main est plutôt rapide.       
 
->Utilisation :  
+Utilisation :  
 * L'installation est simple et rapide en la téléchargeant sur le **[site officiel](http://leafletjs.com/)** ou en forkant le repo **[GitHub](https://github.com/Leaflet/Leaflet)**  
 * Quelques lignes suffisent pour visualiser votre première carte :  
 
@@ -84,8 +88,8 @@ Sachez qu'il existe une version plus poussée de cette librairie en la biblioth�
 
 #### Alors plus d'hésitation, adoptez les !     
 
->Marine Colonge   
->Simplonienne de la promotion 2 Toulouse    
+Marine Colonge   
+Simplonienne de la promotion 2 Toulouse    
 ![Simplon Occitanie](https://a248.e.akamai.net/secure.meetupstatic.com/photos/event/a/0/d/0/global_450101168.jpeg)
 
 #### Sources 
