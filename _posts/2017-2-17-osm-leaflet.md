@@ -22,10 +22,13 @@ Il a pour but de créer une carte libre du monde. A cette fin, les données expl
 Sachez que ces données géographiques sont mises à disposition des utilisateurs pour des utilisations diverses tels que des calculs d'itinéraires ou différents rendus de carte grâce à des plugins mais également que vous pouvez contribuer à cette entreprise de récolte !  
 En effet, chaque personne peut participer à la création et à la numérisation des cartes que ce soit en marchant, à 2 roues, en voiture ou tout autre moyen de transport.      
 
+--------------------------
 Comment faire cela ?  
 - Vous recueillez des données enregistrées par exemple avec un GPS sur un itinéraire, 
 - Vous prenez des notes (photographiques, écrites ou orales) sur les mentions utiles comme les noms, le type de lieu (parcs, forêt, zone résidentielle, commerces ...), présence de boites aux lettres, tout ce que vous jugerez utile,
-- Puis vous reportez ces informations sur le serveur de données d'OpenStreetMap.     
+- Puis vous reportez ces informations sur le serveur de données d'OpenStreetMap.    
+
+--------------------------
 
 Si vous êtes intéressés, je vous invite à cliquer **[ici](http://www.openstreetmap.org/#map=5/51.495/-0.110)** pour découvrir le site et commencer à cartographier vous même !      
 
@@ -45,6 +48,7 @@ Leaflet a été développée par Vladimir Agafonkin de CloudMade ainsi que de no
 
 Elle est très légère (38Ko) ce qui la rend idéale pour les supports tels que smartphones et tablettes. Elle possède tout les éléments de base indispensables dont ont besoin la plupart des développeurs. Elle est également très simple d'utilisation et la prise en main est plutôt rapide.       
 
+----------------------------------
 Utilisation :  
 * L'installation est simple et rapide en la téléchargeant sur le **[site officiel](http://leafletjs.com/)** ou en forkant le repo **[GitHub](https://github.com/Leaflet/Leaflet)**  
 * Quelques lignes suffisent pour visualiser votre première carte :  
@@ -65,6 +69,8 @@ initmap();
 
 ![exemple circle et popup](https://upload.wikimedia.org/wikipedia/en/a/a8/Leaflet_example.png)
 ![exemple marker personnalisable](http://leafletjs.com/examples/custom-icons/thumbnail.png)
+
+----------------------------------
 
 #### Pour des besoins plus poussés
 
