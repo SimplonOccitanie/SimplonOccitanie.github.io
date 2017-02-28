@@ -28,7 +28,7 @@ Une fois qu’une page est connue de Google, celui-ci reviendra (plus ou moins) 
 
 ### Outils et liens pour aller plus loin sur le crawl
 
-* Une petite commande simple à taper dans votre barre de recherche pour connaître la date du dernier passage de Google sur une page donnée et avoir un aperçu de ce qu'a lu le moteur de recherche (en cliquant sur la version en text seul) : cache:www.nomdusite.fr/page
+* Une petite commande simple à taper dans votre barre de recherche pour connaître la date du dernier passage de Google sur une page donnée et avoir un aperçu de ce qu'a lu le moteur de recherche (en cliquant sur la version en text seul) : `cache:www.nomdusite.fr/page`
 
 * Un autre outil : la possibilité d’explorer une page “comme Google” et de voir le rendu de celle-ci telles qu’affichées par [Googlebot (le crawler)](https://webmaster-fr.googleblog.com/2014/05/rendu-pages-Explorer-comme-Google.html)
 
@@ -52,7 +52,7 @@ Si vous fournissez une URL canonique, c’est-à-dire si vous indiquez aux moteu
 
 * Une autre commande à taper dans la barre de recherche pour voir toutes les pages indexées d’un site : `site:www.nomdusite.fr`
 
-* Et pour ceux qui utilisent Google Search Console : [](https://support.google.com/webmasters/answer/2642366?hl=fr) 
+* Et pour ceux qui utilisent Google Search Console : [https://support.google.com/webmasters/answer/2642366?hl=fr](https://support.google.com/webmasters/answer/2642366?hl=fr) 
 
 
 ## Comment interdire le crawl et/ou l’indexation ?
@@ -88,6 +88,6 @@ Ainsi, pour chaque site web, vous pouvez définir 3 niveaux de pages :
 
 Pour étudier le SEO d’un site, il peut être intéressant d’étudier les deltas entre ces différents types de pages. Par exemple, une différence importante entre nombre de pages crawlées et nombre pages indexées peut mettre en évidence un problème de duplicate content (Google parcourt de nombreuses pages de votre site, mais il considère qu’elles se ressemblent au niveau du contenu et ne va pas toutes les indexer).
 
-Pour finir, voici un outil bien pratique pour y voir plus clair parmi toutes ces pages et aller plus loin dans leur analyse : [](https://myrankingmetrics.com/) Une fois votre compte créé, vous pouvez faire une analyse gratuite de votre site, qui vous donnera une indication globale sur ses performances SEO. Si vous faites une analyse payante, vous aurez accès à des explication détaillées sur chaque point. La force de l’analyse payante est la possibilité d’exporter sous format Excel la liste de vos urls crawlées ou indexées, et de les filtrer selon de nombreux critères (code http, vitesse de téléchargement, profondeur de la page…). 
+Pour finir, voici un outil bien pratique pour y voir plus clair parmi toutes ces pages et aller plus loin dans leur analyse : [https://myrankingmetrics.com/](https://myrankingmetrics.com/) Une fois votre compte créé, vous pouvez faire une analyse gratuite de votre site, qui vous donnera une indication globale sur ses performances SEO. Si vous faites une analyse payante, vous aurez accès à des explication détaillées sur chaque point. La force de l’analyse payante est la possibilité d’exporter sous format Excel la liste de vos urls crawlées ou indexées, et de les filtrer selon de nombreux critères (code http, vitesse de téléchargement, profondeur de la page…). 
 
 Bonne chance ! :)
