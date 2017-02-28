@@ -3,21 +3,18 @@ layout: post
 date:   2017-02-23 09:11:00 +0100
 title:  "Adoptez OpenStreetMap et sa Librairie Leaflet "
 categories: osm, maps, leaflet
----
-# 
-*******************************************************
-   
-![OSM](http://openstreetmap.fr/f/OSM-FR-logo-web-avec-texte.png)      
+--- 
 
 ![Leaflet](http://t3.gstatic.com/images?q=tbn:ANd9GcS5d8NPc4K2rv-wa6cB8xTmMk_yRz0uj9APe6Us5iMjJWQrnj_AggiF0dQ)        
 
->Besoin d'une carte ?     
->Adoptez Open Street Map et sa Librairie Leaflet : une solution pratique et une prise en main rapide !      
+Besoin d'une carte ?     
+Adoptez Open Street Map et sa Librairie Leaflet : une solution pratique et une prise en main rapide !      
 
 
 Mais qu'est ce donc ?     
 ==
 
+![OSM](http://openstreetmap.fr/f/OSM-FR-logo-web-avec-texte.png)     
 ## OpenStreetMap (OSM)
 
 OpenStreetMap est un projet international datant de 2004.  
