@@ -48,9 +48,9 @@ Si vous fournissez une URL canonique, c’est-à-dire si vous indiquez aux moteu
 
 ### Outils pour surveiller l’indexation
 
-* Une petite commande à taper dans la barre de recherche pour savoir si une page est indexée : “info:www.nomdusite.fr/page”
+* Une petite commande à taper dans la barre de recherche pour savoir si une page est indexée : `info:www.nomdusite.fr/page`
 
-* Une autre commande à taper dans la barre de recherche pour voir toutes les pages indexées d’un site : “site:www.nomdusite.fr”
+* Une autre commande à taper dans la barre de recherche pour voir toutes les pages indexées d’un site : `site:www.nomdusite.fr`
 
 * Et pour ceux qui utilisent Google Search Console : [](https://support.google.com/webmasters/answer/2642366?hl=fr) 
 
