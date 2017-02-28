@@ -37,7 +37,7 @@ Si vous êtes intéressés, je vous invite à cliquer **[ici](http://www.openstr
 
 En plus, d'être très pratique ces cartes ont un réel intérêt pour de nombreux projets humanitaires notamment dans les parties du monde où les cartes sont incomplètes ou rapidement obsolètes.      
 
-Ce projet à permit la naissance d'Humanitarian OpenStreetMap Team (HOT), une équipe humanitaire qui applique les principes et activités du logiciel libre et de l'opendata pour répondre à des crises humanitaires et au développement.  
+Ce projet a permis la naissance d'Humanitarian OpenStreetMap Team (HOT), une équipe humanitaire qui applique les principes et activités du logiciel libre et de l'opendata pour répondre à des crises humanitaires et au développement.  
 Pour en savoir davatange sur cette initiative : **[HOT](https://hotosm.org/)**     
 
 
@@ -81,7 +81,7 @@ Sachez qu'il existe une version plus poussée de cette librairie en la biblioth�
 
 ## Pour conclure
 
-* OpenSteetMap c'est un projet :      
+* OpenStreetMap c'est un projet :      
 
 	* open-source
 	* créé et enrichi par et pour les utilisateurs
