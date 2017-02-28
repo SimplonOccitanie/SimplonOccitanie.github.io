@@ -1,5 +1,3 @@
-# Fonctionnement des moteurs de recherche : comprendre le crawl et l'indexation.
-
 Si vous devez vous intéresser à la question du référencement naturel (SEO), une bonne façon d'appréhender le sujet peut être de vous ntéresser au fonctionnement des moteurs de recherche (je citerai souvent Google dans cet article, mais Yahoo ou Bing fonctionnent sur les mêmes principes). Cet article n’est pas exhaustif, mais j’aimerais ici introduire les notions de crawl et d'indexation, et vous proposer des pistes pour aller plus loin si le sujet vous intéresse.
 
 ## Que fait le moteur de recherche ?
@@ -32,9 +30,9 @@ Une fois qu’une page est connue de Google, celui-ci reviendra (plus ou moins) 
 
 * Une petite commande simple à taper dans votre barre de recherche pour connaître la date du dernier passage de Google sur une page donnée et avoir un aperçu de ce qu'a lu le moteur de recherche (en cliquant sur la version en text seul) : cache:www.nomdusite.fr/page
 
-* Un autre outil : la possibilité d’explorer une page “comme Google” et de voir le rendu de celle-ci telles qu’affichées par Googlebot (le crawler) :  https://webmaster-fr.googleblog.com/2014/05/rendu-pages-Explorer-comme-Google.html 
+* Un autre outil : la possibilité d’explorer une page “comme Google” et de voir le rendu de celle-ci telles qu’affichées par [Googlebot (le crawler)](https://webmaster-fr.googleblog.com/2014/05/rendu-pages-Explorer-comme-Google.html)
 
-* Et enfin, pour aller plus loin sur la notion de crawl et notamment l’importance d’un temps de téléchargement faible pour faciliter cette étape, je vous conseille cet article : http://www.webrankinfo.com/dossiers/indexation/crawl-budget 
+* Et enfin, pour aller plus loin sur la notion de crawl et notamment l’importance d’un temps de téléchargement faible pour faciliter cette étape, je vous conseille [cet article de webrankinfo](http://www.webrankinfo.com/dossiers/indexation/crawl-budget)
 
 ## Etape 2 : l’indexation
 
@@ -44,9 +42,9 @@ Une fois l’étape du crawl effectuée, le moteur de recherche analyse chaque p
 
 ### Comment indexer une page web ?
 
-Tout d’abord, le format doit être pris en compte par Google (HTML, PDF, Excel...). Le code HTTP doit être égal à 200 (donc si votre page est une redirection (code 3XX), en erreur client (code 4XX) ou en erreur serveur (code 5XX), elle ne pourra pas être indexée). Le moteur de recherche analysera ensuite la qualitée de la page (contenu, temps de chargement...) pour décider de l’ajouter ou non à son index.
+Tout d’abord, le format doit être pris en compte par Google (HTML, PDF, Excel...). Le code HTTP doit être égal à 200 (donc si votre page est une redirection (code 3XX), en erreur client (code 4XX) ou en erreur serveur (code 5XX), elle ne pourra pas être indexée). Le moteur de recherche analysera ensuite la qualitée de la page (contenu, temps de chargement...) pour décider de l’ajouter ou non à son index.(
 
-Si vous fournissez une URL canonique, c’est-à-dire si vous indiquez aux moteurs de recherche que la page sur laquelle il est n’est pas la page officielle, c’est cette url qui sera indexée. Pour en savoir plus sur les urls canoniques : http://www.webrankinfo.com/dossiers/techniques/url-canonique#gref 
+Si vous fournissez une URL canonique, c’est-à-dire si vous indiquez aux moteurs de recherche que la page sur laquelle il est n’est pas la page officielle, c’est cette url qui sera indexée. [Pour en savoir plus sur les urls canoniques](http://www.webrankinfo.com/dossiers/techniques/url-canonique#gref) 
 
 ### Outils pour surveiller l’indexation
 
@@ -54,7 +52,7 @@ Si vous fournissez une URL canonique, c’est-à-dire si vous indiquez aux moteu
 
 * Une autre commande à taper dans la barre de recherche pour voir toutes les pages indexées d’un site : “site:www.nomdusite.fr”
 
-* Et pour ceux qui utilisent Google Search Console : https://support.google.com/webmasters/answer/2642366?hl=fr 
+* Et pour ceux qui utilisent Google Search Console : [](https://support.google.com/webmasters/answer/2642366?hl=fr) 
 
 
 ## Comment interdire le crawl et/ou l’indexation ?
@@ -65,8 +63,8 @@ Si vous fournissez une URL canonique, c’est-à-dire si vous indiquez aux moteu
 
 Si Google n’a pas encore connaissance de votre page, vous pouvez **lui interdire de la crawler**. Pour ce faire, vous pouvez **ajouter un fichier robots.txt à votre site web**. Ce fichier, facultatif, permet de lister les adresses des pages que vous ne voulez pas que Google passe visiter. Le fichier robots.txt est lié au sous-domaine (il peut donc il y avoir plusieurs fichiers robots.txt pour un même nom de domaine).
 
-* Un exemple de fichier robots.txt : https://www.airbnb.fr/robots.txt 
-* Pour en savoir plus sur le fichier robots.txt : https://support.google.com/webmasters/answer/6062608?hl=fr&visit_id=1-636231375803971570-1192364356&rd=1 
+* [Un exemple de fichier robots.txt](https://www.airbnb.fr/robots.txt)
+* [Pour en savoir plus sur le fichier robots.txt](https://support.google.com/webmasters/answer/6062608?hl=fr&visit_id=1-636231375803971570-1192364356&rd=1)
 
 ### Désindexer une page déjà connue de Google
 
@@ -76,9 +74,9 @@ Dans le cas donc où vous voulez désindexer une page déjà connue de Google, v
 
 La solution qui paraît être la plus fiable est de **placer une balise meta robots noindex dans le header de la page : <meta name="robots" content="noindex" />**. Cette balise dit clairement à Google vous ne souhaitez pas faire ressortir cette page dans les moteurs de recherche.
 
-* Attention : si vous ajoutez cette balise à une page, le moteur de recherche doit pouvoir crawler la page pour la lire. Donc : si jamais votre page est listée dans le fichier robots.txt, le moteur de recherche ne pourra pas y accéder, et il ne verra donc pas l’indication lui disant de la désindexer. (tout est expliqué ici : https://support.google.com/webmasters/answer/93710?hl=fr)
+* Attention : si vous ajoutez cette balise à une page, le moteur de recherche doit pouvoir crawler la page pour la lire. Donc : si jamais votre page est listée dans le fichier robots.txt, le moteur de recherche ne pourra pas y accéder, et il ne verra donc pas l’indication lui disant de la désindexer. ([tout est expliqué sur ce lien du support google](https://support.google.com/webmasters/answer/93710?hl=fr))
 
-Pour désindexer une page, il est également possible de demander une suppression immédiate dans Google Search Console. Pour en savoir plus sur comment désindexer une page, je vous renvoie encore une fois vers webrankinfo qui propose un dossier très complet sur le sujet : http://www.webrankinfo.com/dossiers/indexation/comment-desindexer#gref 
+Pour désindexer une page, il est également possible de demander une suppression immédiate dans Google Search Console. Pour en savoir plus sur comment désindexer une page, je vous renvoie encore une fois vers webrankinfo qui propose [un dossier très complet sur le sujet](http://www.webrankinfo.com/dossiers/indexation/comment-desindexer#gref)
 
 
 ## Pour finir...
@@ -90,4 +88,6 @@ Ainsi, pour chaque site web, vous pouvez définir 3 niveaux de pages :
 
 Pour étudier le SEO d’un site, il peut être intéressant d’étudier les deltas entre ces différents types de pages. Par exemple, une différence importante entre nombre de pages crawlées et nombre pages indexées peut mettre en évidence un problème de duplicate content (Google parcourt de nombreuses pages de votre site, mais il considère qu’elles se ressemblent au niveau du contenu et ne va pas toutes les indexer).
 
-Pour finir, voici un outil bien pratique pour y voir plus clair parmi toutes ces pages et aller plus loin dans leur analyse : https://myrankingmetrics.com/ Une fois votre compte créé, vous pouvez faire une analyse gratuite de votre site, qui vous donnera une indication globale sur ses performances SEO. Si vous faites une analyse payante, vous aurez accès à des explication détaillées sur chaque point. La force de l’analyse payante est la possibilité d’exporter sous format Excel la liste de vos urls crawlées ou indexées, et de les filtrer selon de nombreux critères (code http, vitesse de téléchargement, profondeur de la page…). Bonne chance ! :)
+Pour finir, voici un outil bien pratique pour y voir plus clair parmi toutes ces pages et aller plus loin dans leur analyse : [](https://myrankingmetrics.com/) Une fois votre compte créé, vous pouvez faire une analyse gratuite de votre site, qui vous donnera une indication globale sur ses performances SEO. Si vous faites une analyse payante, vous aurez accès à des explication détaillées sur chaque point. La force de l’analyse payante est la possibilité d’exporter sous format Excel la liste de vos urls crawlées ou indexées, et de les filtrer selon de nombreux critères (code http, vitesse de téléchargement, profondeur de la page…). 
+
+Bonne chance ! :)
