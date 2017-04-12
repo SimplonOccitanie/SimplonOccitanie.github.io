@@ -252,6 +252,12 @@ nav {
 }
 
 .post {
+
+  .post--title {
+    text-align: center;
+    font-size:2em;
+  }
+
   blockquote {
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
